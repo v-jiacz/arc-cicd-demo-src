@@ -12,7 +12,7 @@ jobs:
     environment: az-vote-app-dev
     steps:
     - name: Checkout
-      uses: actions/checkout@v3.1.0
+      uses: actions/checkout@v3.3.0
       with:
           set-safe-directory: '*'
     - name: Azure Login
