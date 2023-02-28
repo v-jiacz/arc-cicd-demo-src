@@ -17,7 +17,7 @@ jobs:
       AZ_ACR_NAME: gitopsflowacr
     steps:
     - name: Checkout
-      uses: actions/checkout@3.3.0
+      uses: actions/checkout@v3.3.0
       with:
           set-safe-directory: '*'
     - name: Azure Login
